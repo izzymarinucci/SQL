@@ -61,12 +61,10 @@ VALUES
     ;
     
 
-
 # The following SQL was written to answer specific questions about the content on Netflix:
 
 
 #1. How many movie titles are there in the database? (movies only, not tv shows) 
-
 SELECT count (*) 
 FROM "netflix_titles_info"
 WHERE type= 'Movie';
@@ -79,7 +77,6 @@ FROM "netflix_titles_info";
 SELECT title
 FROM "netflix_titles_info"
 ORDER BY title ASC;
-
 
 #4. Who was the Director for the movie The Starling? 
 SELECT director
